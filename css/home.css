@@ -1,0 +1,133 @@
+.container {
+  margin: 0 auto;
+  width: 1024px;
+  box-shadow: #999 0 0 9px 1px;
+  background-color: #fff;
+  font-family: "Capriola", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 18px 10px;
+  color: #999;
+  text-align: center;
+}
+
+.welcome {
+  font-size: 30px;
+  color: #DF4747;
+}
+
+.name {
+  font-size: 45px;
+  text-align: center;
+  color: #616161;
+}
+
+hr {
+  border-color: #666;
+  border-color: rgba(0, 0, 0, 0.15);
+  width: 800px;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+.more {
+  color: #aaa;
+}
+
+.fixed {
+  margin: 0 auto;
+  text-align: left;
+  width: 536px;
+}
+
+#shift {
+  text-shadow: 0 0 0px #999;
+}
+
+#spacer {
+  position: absolute;
+  visibility: hidden;
+  height: auto;
+  width: auto;
+  font-family: "Capriola", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.small {
+  width: 400px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.social > img {
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+body {
+  background: url("../img/pattern.png");
+}
+
+/* ugliness */
+.fake_container {
+  background: url("../img/sparkle-background.gif");
+  width: 100%;
+  display: block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: White;
+  font-family: 'Comic Sans MS', 'sans-serif';
+  text-align: center;
+  font-size: 18px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  box-shadow: #222 0px 0px 50px 10px;
+}
+.fake_container h1 {
+  background-color: #ffff00;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  color: Black;
+  font-family: Courier, Courier New, Monospace;
+}
+.fake_container .retarded {
+  color: #444;
+  width: 600px;
+  margin: 0 auto;
+}
+.fake_container .sidebar {
+  font-size: 18pt;
+  padding: 18px;
+  width: 240px;
+  color: #ff0000;
+  background-color: #0000ff;
+  float: right;
+}
+.fake_container .content {
+  color: Black;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 0;
+}
+.fake_container marquee {
+  font-style: italic;
+  font-size: 44pt;
+}
+.fake_container .message {
+  background-color: Pink;
+  color: Yellow;
+  font-size: 24pt;
+}
+.fake_container a {
+  background-color: White;
+}
