@@ -2,7 +2,7 @@ $.fx.step.textShadowBlur = function(fx) {
   $(fx.elem).css({textShadow: '0 0 ' + Math.floor(fx.now) + 'px #999'});
 };
 
-var things = ['building web applications', 'designing interfaces', 'creating mockups', 'watching movies', 'testing methods', 'eating cereal', 'refactoring', 'reading', 'kissing girls', 'building systems', 'playing StarCraft 2'];
+var things = ['building web applications', 'designing interfaces', 'creating mockups', 'watching movies', 'testing methods', 'eating cereal', 'refactoring', 'reading', 'proving theorems', 'kissing girls', 'building systems', 'playing StarCraft 2', 'Redditing', 'learning'];
 var things_index = 0;
 
 function Shift() {
@@ -48,7 +48,8 @@ function Reveal() {
         'top': height
       }, 2000, function() {
         $('.fake_container').hide();   
-        setTimeout(Shift, 8000);        
+        setTimeout(Shift, 5000);
+        $.cookie('show_front', 'no');
       });
       clearTimeout(t);
     }, 1000);
@@ -59,6 +60,12 @@ $(document).ready(function() {
   $('.fake_container a').click(function() {
     alert('Nope!');
   });    
+  
+  if($.cookie('show_front') === 'no') {
+    $('.fake_container').hide();
+    $('.welcome').hide();
+    $('.welcome').next().hide();
+  }
   
   setTimeout(Reveal, 12000);
 });

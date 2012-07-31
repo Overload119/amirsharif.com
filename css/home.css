@@ -31,6 +31,40 @@ h3 {
   font-weight: normal;
 }
 
+.work {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.work a {
+  margin-top: 20px;
+  display: inline-block;
+  color: #9393D1;
+  text-decoration: none;
+  padding: 16px; 
+  transition: background 0.25s;
+  -moz-transition: background 0.25s; /* Firefox 4 */
+  -webkit-transition: background 0.25s; /* Safari and Chrome */
+  -o-transition: background 0.25s; /* Opera */
+}
+.work a:hover { 
+  color: #A7A7EB;  
+  background-color: #F0F0F0;
+  border-radius: 4px;
+}
+.work a:visited { color: #8282B8; }
+.work a > span {
+  line-height: 96px;
+  vertical-align: text-bottom;
+}
+.work a > span:hover {  text-decoration: underline }
+
+.work img {
+  width: 96px;
+  height: 96px;
+  border-radius: 4px;
+}
+
 footer {
   margin-top: 40px;
 }
