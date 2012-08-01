@@ -67,5 +67,5 @@ $(document).ready(function() {
     $('.welcome').next().hide();
   }
   
-  setTimeout(Reveal, 12000);
+  setTimeout(Reveal, 4000);
 });
