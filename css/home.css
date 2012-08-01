@@ -1,6 +1,7 @@
 .container {
   margin: 0 auto;
-  width: 1024px;
+  min-width: 800px;
+  width: 70%;
   box-shadow: #999 0 0 9px 1px;
   background-color: #fff;
   font-family: "Capriola", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -10,12 +11,12 @@
 }
 
 .welcome {
-  font-size: 30px;
+  font-size: 2.4em;
   color: #DF4747;
 }
 
 .name {
-  font-size: 45px;
+  font-size: 3em;
   text-align: center;
   color: #616161;
 }
@@ -23,7 +24,7 @@
 hr {
   border-color: #666;
   border-color: rgba(0, 0, 0, 0.15);
-  width: 800px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -32,7 +33,7 @@ h3 {
 }
 
 .work {
-  width: 400px;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -63,6 +64,7 @@ h3 {
   width: 96px;
   height: 96px;
   border-radius: 4px;
+  outline: none;
 }
 
 footer {
@@ -77,6 +79,8 @@ footer {
   margin: 0 auto;
   text-align: left;
   width: 536px;
+  overflow: hidden;  
+  white-space: nowrap;
 }
 
 #shift {
@@ -95,7 +99,7 @@ footer {
 }
 
 .small {
-  width: 400px;
+  width: 30%;
   margin-top: 40px;
   margin-bottom: 40px;
 }
