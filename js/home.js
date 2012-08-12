@@ -11,6 +11,7 @@ function GetTextWidth(text) {
   return width;
 }
 
+var _shift;
 function Shift() {
   if(things_index >= things.length-1) {
     things_index = 0;
@@ -31,7 +32,7 @@ function Shift() {
   });
   
   // Fade out
-  $('#shift').animate({
+  $('#shift').stop().animate({
       'textShadowBlur': 40,
       'opacity': 0
     }, 500, function() {    
@@ -49,7 +50,10 @@ function Shift() {
     });  
   });  
 
-  setTimeout(Shift, 3000);
+  if(_shift) {
+    clearTimeout(_shift);
+  }
+  _shift = setTimeout(Shift, 3000);
 }
 
 function Reveal() {
@@ -64,6 +68,7 @@ function Reveal() {
         $('.fake_container').hide();   
         setTimeout(Shift, 5000);
         $.cookie('show_front', 'no');
+        $('#header').fadeIn(150);
       });
       clearTimeout(t);
     }, 1000);

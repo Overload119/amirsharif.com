@@ -10,15 +10,24 @@
   text-align: center;
 }
 
+#header {
+  background-color: Blue;
+  margin: 0;
+  padding: 14px;
+  height: 64px;
+}
+
 .welcome {
   font-size: 2.4em;
   color: #DF4747;
 }
 
 .name {
-  font-size: 3em;
+  font-size: 5em;
   text-align: center;
   color: #616161;
+  position: relative;
+  text-shadow: 1px 1px 1px #222;
 }
 
 hr {
@@ -30,6 +39,7 @@ hr {
 
 h3 {
   font-weight: normal;
+  margin: 0;
 }
 
 .work {
@@ -104,7 +114,13 @@ footer {
   margin-bottom: 40px;
 }
 
+.social {
+  margin-top: 1em;
+}
+
 .social > img {
+  outline: none;
+  border: 0;
   margin-left: 4px;
   cursor: pointer;
 }
