@@ -21,6 +21,15 @@ app.get('/js/*', function (req, res) {
 	res.sendfile(resource_path);
 });
 
+
+app.get('/about', function (req, res) {
+  res.sendfile(__dirname + '/about.html');
+});
+
+app.get('/resume', function (req, res) {
+  res.sendfile(__dirname + '/resume.doc');
+});
+
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
   console.log("Listening on " + port);
