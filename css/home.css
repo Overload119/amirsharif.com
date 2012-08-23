@@ -53,13 +53,15 @@ a:hover {
 }
 
 .work {
-  width: 60%;
+  width: 300px;
   margin: 0 auto;
+  text-align: left;
 }
 
 .work a {
   margin-top: 20px;
   display: inline-block;
+  width: 100%;
   color: #9393D1;
   text-decoration: none;
   padding: 16px; 
