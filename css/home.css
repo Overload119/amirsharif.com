@@ -36,6 +36,7 @@ hr {
   border-color: rgba(0, 0, 0, 0.15);
   width: 80%;
   margin: 0 auto;
+  border-bottom: 1px solid #C2C2C2;
 }
 
 h3 {
@@ -142,12 +143,17 @@ body {
   background: url("../img/pattern.png");
 }
 
+.blogish h1 {
+  text-shadow: 1px 1px 0px #222;
+}
+
 .blogish p {
   text-align: left;
   padding: 0 14%;
-  margin: 5%;
-  font-size: 1.4em;
+  margin: 3% 5%;
+  font-size: 1.1em;
   color: #222;
+  line-height: 1.5em;
 }
 
 /* ugliness */
