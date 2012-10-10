@@ -2,7 +2,7 @@ $.fx.step.textShadowBlur = function(fx) {
   $(fx.elem).css({textShadow: '0 0 ' + Math.floor(fx.now) + 'px #999'});
 };
 
-var things = ['building web applications', 'designing interfaces', 'creating mockups', 'watching movies', 'testing methods', 'eating cereal', 'refactoring', 'reading', 'proving theorems', 'kissing girls', 'building systems', 'playing StarCraft 2', 'Redditing', 'learning'];
+var things = ['building web applications', 'designing interfaces', 'creating mockups', 'watching movies', 'testing methods', 'eating cereal', 'refactoring', 'reading', 'proving theorems', 'chasing girls', 'building systems', 'playing StarCraft 2', 'Redditing', 'learning'];
 var things_index = 0;
 
 function GetTextWidth(text) {
@@ -75,16 +75,68 @@ function Reveal() {
   });
 }
 
+var hiddenTagDrag = false;
 $(document).ready(function() {
   $('.fake_container a').click(function() {
     alert('Nope!');
   });    
+
   
   if($.cookie('show_front') === 'no') {
     $('.fake_container').hide();
+    $('.hidden_tag').hide();
     $('.welcome').hide();
     $('.welcome').next().hide();
+  } else {    
+    $('.hidden_tag').mousedown(function(evt) {
+      window.scrollTo(0,0);
+
+      $('.hidden_tag').css('box-shadow', 'white 0 0 25px');
+
+      var dy = evt.clientY - $('.hidden_tag').height();
+
+      var mouseMove = function(e) {
+        if(document.selection) {
+          document.selection.empty();
+        } else {
+          window.getSelection().removeAllRanges();
+        }
+        var y = dy + e.clientY;
+        $('.hidden_tag').css('top', y + 'px');
+        $('.fake_container').css('top', y + 'px');
+      };
+
+      hiddenTagDrag = true;
+      $(document).on('mousemove', mouseMove);
+    });
+
+    $(document).mouseup(function(e) {
+      var y = e.clientY;
+
+      if(!hiddenTagDrag) { return; }
+      hiddenTagDrag = false;
+
+      if( y > 200 ) {
+        var height = $('.fake_container').height();
+        $('.fake_container').animate({'top': height + 'px'});
+        $('.hidden_tag').animate({'top': height + 'px'});
+      } else {
+        $('.fake_container').animate({'top': '0px'});
+        $('.hidden_tag').animate({'top': '0px'});
+      }
+
+      $('.hidden_tag').css('box-shadow', 'inset #8C0000 0 0 50px');
+      $(document).off('mousemove');
+    });
+
+    var dropTag = function() {
+      $('.hidden_tag').show().animate({
+        top: '0px'
+      }).animate({
+        top: '-5px'
+      });
+    }
+
+    setTimeout(dropTag, 3000);
   }
-  
-  setTimeout(Reveal, 4000);
 });
