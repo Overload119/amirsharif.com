@@ -120,6 +120,7 @@ $(document).ready(function() {
         var height = $('.fake_container').height();
         $('.fake_container').animate({'top': height + 'px'});
         $('.hidden_tag').animate({'top': height + 'px'});
+        $.cookie('show_front', 'no');
       } else {
         $('.fake_container').animate({'top': '0px'});
         $('.hidden_tag').animate({'top': '0px'});
