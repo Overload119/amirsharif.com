@@ -82,7 +82,7 @@ $(document).ready(function() {
   });    
 
   
-  if($.cookie('show_front') === 'no') {
+  if($.cookie('show_front') === 'no' || $.browser.msie ) {
     $('.fake_container').hide();
     $('.hidden_tag').hide();
     $('.welcome').hide();
