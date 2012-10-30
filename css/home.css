@@ -19,6 +19,7 @@
   -webkit-user-select: none;
   border-radius: 0 0 15px 15px;
 }
+
 .hidden_tag > span {
   width: 0px;
   height: 0px;
@@ -29,9 +30,11 @@
   border-right: 10px solid transparent;  
   border-top: 20px solid #f00;
 }
+
 .hidden_tag:hover {
   cursor: pointer;
 }
+
 .hidden_tag:hover > span {
   border-top: 20px solid #fff;
 }
@@ -41,7 +44,6 @@
   width: 70%;
   min-width: 800px;
   max-width: 1000px;
-  box-shadow: #999 0 0 9px 1px;
   background-color: #fff;
   font-family: "Capriola", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 18px 10px;
@@ -103,23 +105,25 @@ a:hover {
   color: #9393D1;
   text-decoration: none;
   padding: 16px; 
-  transition: background 0.25s;
-  -moz-transition: background 0.25s; /* Firefox 4 */
-  -webkit-transition: background 0.25s; /* Safari and Chrome */
-  -o-transition: background 0.25s; /* Opera */
+  -webkit-transition: all 0.25s;
 }
 .work a:hover { 
-  color: #A7A7EB;  
+  color: #6E6E9C;  
   background-color: #F0F0F0;
   border-radius: 4px;
+  box-shadow: inset #ACACAC 1px 1px 5px;
   border: 0;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -o-transition: all 0.25s;
 }
-.work a:visited { color: #8282B8; }
+
+
+.work a:visited { text-decoration: line-through; }
 .work a > span {
   line-height: 96px;
   vertical-align: text-bottom;
 }
-.work a > span:hover {  text-decoration: underline }
 
 .work img {
   width: 96px;
@@ -137,7 +141,7 @@ footer {
 }
 
 .fixed {
-  margin: 0 auto;
+  margin: 8px auto;
   text-align: left;
   width: 536px;
   overflow: hidden;  
@@ -168,6 +172,12 @@ footer {
 .social {
   margin-top: 1em;
 }
+.social a {
+  margin-left: 10px;
+}
+.social a:hover {
+  border: 0;
+}
 
 .social > img {
   outline: none;
@@ -178,6 +188,8 @@ footer {
 
 body {
   background: url("../img/pattern.png");
+  margin: 0;
+  padding: 0;
 }
 
 .blogish h1 {

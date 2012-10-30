@@ -2,7 +2,21 @@ $.fx.step.textShadowBlur = function(fx) {
   $(fx.elem).css({textShadow: '0 0 ' + Math.floor(fx.now) + 'px #999'});
 };
 
-var things = ['building web applications', 'designing interfaces', 'creating mockups', 'watching movies', 'testing methods', 'eating cereal', 'refactoring', 'reading', 'proving theorems', 'chasing girls', 'building systems', 'playing StarCraft 2', 'Redditing', 'learning'];
+var things = ['building web applications.',
+ 'designing interfaces.',
+ 'creating mockups.',
+ 'watching movies.',
+ 'testing methods.',
+ 'eating cereal.',
+ 'refactoring.',
+ 'reading.',
+ 'proving theorems.',
+ 'chasing girls.',
+ 'building systems.',
+ 'playing StarCraft 2.',
+ 'Redditing.',
+ 'learning.',
+ 'writing.'];
 var things_index = 0;
 
 function GetTextWidth(text) {
@@ -56,25 +70,6 @@ function Shift() {
   _shift = setTimeout(Shift, 3000);
 }
 
-function Reveal() {
-  var height = $('.fake_container').height();
-  $('.fake_container').animate({
-    'top': '100px'
-  }, 500, function() {
-    var t = setTimeout(function() {
-      $('.fake_container').animate({
-        'top': height
-      }, 2000, function() {
-        $('.fake_container').hide();   
-        setTimeout(Shift, 5000);
-        $.cookie('show_front', 'no');
-        $('#header').fadeIn(150);
-      });
-      clearTimeout(t);
-    }, 1000);
-  });
-}
-
 var hiddenTagDrag = false;
 $(document).ready(function() {
   $('.fake_container a').click(function() {
@@ -82,12 +77,17 @@ $(document).ready(function() {
   });    
 
   
+  // They have seen the ugly page
   if($.cookie('show_front') === 'no' || $.browser.msie ) {
     $('.fake_container').hide();
     $('.hidden_tag').hide();
     $('.welcome').hide();
-    $('.welcome').next().hide();
+    $('.welcome').next().hide();  
+    setTimeout(Shift, 5000);
   } else {    
+    // Show the fake page
+    
+    
     $('.hidden_tag').mousedown(function(evt) {
       window.scrollTo(0,0);
 
@@ -101,7 +101,7 @@ $(document).ready(function() {
         } else {
           window.getSelection().removeAllRanges();
         }
-        var y = dy + e.clientY;
+        var y = (dy + e.clientY) ? dy + e.clientY : 0;
         $('.hidden_tag').css('top', y + 'px');
         $('.fake_container').css('top', y + 'px');
       };
@@ -121,6 +121,7 @@ $(document).ready(function() {
         $('.fake_container').animate({'top': height + 'px'});
         $('.hidden_tag').animate({'top': height + 'px'});
         $.cookie('show_front', 'no');
+        setTimeout(Shift, 5000);
       } else {
         $('.fake_container').animate({'top': '0px'});
         $('.hidden_tag').animate({'top': '0px'});
@@ -138,6 +139,6 @@ $(document).ready(function() {
       });
     }
 
-    setTimeout(dropTag, 3000);
+    setTimeout(dropTag, 1250);
   }
 });
