@@ -26,6 +26,11 @@ app.get('/about', function (req, res) {
   res.sendfile(__dirname + '/about.html');
 });
 
+app.get('/movember', function (req, res) {
+  res.sendfile(__dirname + '/movember.html');
+});
+
+
 app.get('/resume', function (req, res) {
   res.sendfile(__dirname + '/resume.doc');
 });
