@@ -40,9 +40,9 @@ var mustache_style = 0;
   var height    = canvas.height;
 
   var imageOne  = new Image();
-  imageOne.src  = 'http://images-2.drive.com.au/2012/11/17/3803049/up_460-460x307.jpg';
+  imageOne.src  = 'img/movember_1.jpg';
   var imageTwo  = new Image();
-  imageTwo.src  = 'http://i2.cdn.turner.com/money/dam/assets/120917122943-car-dealership-lot-story-top.jpg';
+  imageTwo.src  = 'img/movember_2.jpg';
 
   c.font = "20pt Arial";
   c.fillText( 'Loading...', 64, 64 );
