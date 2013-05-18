@@ -13,11 +13,17 @@
 
     a {
       color: #FFF;
+      padding: 0 3px;
+      border-radius: 4px;
       text-decoration: none;
+      background-color: #8193BE;
+      border-bottom: 2px solid #364E86;
+      text-shadow: none;
     }
 
     a:hover {
       color: #FFF;
+      background-color: #8EA1CF;
     }
 
     body {
@@ -43,7 +49,6 @@
       float: left;
       min-height: 100%;
       border: 1px solid #D5D5D5;
-      border-top: 0;
       text-shadow: 1px 1px 1px #2E3546;
     }
 
@@ -56,16 +61,6 @@
       line-height: 1.4em;
     }
 
-    .speech-bubble h1 {
-      font-size: 1.8em;
-      padding-top: 8px;
-    }
-
-    .speech-bubble p {
-      margin-bottom: 0;
-      text-align: justify;
-    }
-
     h1, h2, h3 {
       margin: 0;
     }
@@ -75,24 +70,34 @@
     }
 
     .speech-bubble {
-      padding: 0 10px;
+      padding: 8px 10px;
       width: 100%;
       margin: 0 auto;
       background-color: #5B73B1;
       color: #FFF;
-      margin-bottom: 32px;
+      margin-bottom: 24px;
+      position: relative;
+    }
+
+    .speech-bubble h1 {
+      font-size: 1.8em;
+    }
+
+    .speech-bubble p {
+      margin-bottom: 0;
+      text-align: justify;
     }
 
     .speech-bubble::after {
       width: 0px;
       height: 0px;
       content: " ";
-      border-left: 15 solid transparent;
-      border-right: 15px solid transparent;
-      border-top: 15px solid #5B73B1;
-      position: relative;
+      border-left: 8 solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 10px solid #5B73B1;
+      position: absolute;
       left: 18px;
-      top: 34px;
+      bottom: -10px;
     }
 
     .bubble {
@@ -201,7 +206,7 @@
 
       <div class="bubble">
         <h2 class="pst"><i class="icon-comment-alt pull-right"></i> <i>Psssttt...</i></h2>
-        <p>Check out some of my side projects over at:<br/></br> <a href="http://seelio.com/amirsharif">http://seelio.com/amirsharif</a></p>
+        <p>I love to code! Check out a number of my side projects on <a href="http://ca.linkedin.com/pub/amir-sharif/36/266/292/">LinkedIn</a> and <a href="http://seelio.com/amirsharif">Seelio</a>.</p>
       </div>
     </div>
 
@@ -212,9 +217,9 @@
         <div class="block-container">
           <ul class="skill-list">
             <li>Strong understanding of object-oriented principles, algorithm design, data abstraction, and running time efficiency</li>
-            <li>Experience building and deploying large-scale web applications using Ruby, C#, Javascript, HTML5, CSS, and their related frameworks (ie Rails, Node, jQuery, etc)</li>
+            <li>Experience building and deploying large-scale web applications using Ruby, C#, Javascript, HTML5, CSS, and their related frameworks (Rails, .NET, Node, jQuery, etc.)</li>
             <li>Proficient with SQL databases (MySQL, MS SQL, Postgres) including query optimization and scalability</li>
-            <li>Excellent communication and interpersonal skills developed through four years of Dramatic Arts training</li>
+            <li>Excellent communication and leadership skills developed through four years of Dramatic Arts training</li>
           </ul>
         </div>
 
@@ -258,7 +263,7 @@
             RapPad.co is the best place to learn to freestyle, write lyrics, and share it with a community.
             <br/><br/>
             Independently prototyped at MHacks, the largest student hackathon in the world, winning "Best Showcase of Talent" and "Best Use of OpenShift Platform".
-            After overwhelming positive feedback from the frontpage of Hacker News, I now lead a team team of four individuals with different skillsets in continuing to build and deploy features.
+            After overwhelming positive feedback from the frontpage of Hacker News, I now lead a team team of three individuals with different skillsets in continuing to build and deploy features.
           </p>
         </div>
       </div>
