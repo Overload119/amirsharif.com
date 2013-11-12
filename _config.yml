@@ -1,0 +1,4 @@
+safe: true
+markdown: rdiscount
+paginate: 5
+baseurl: http://amirsharif.com
