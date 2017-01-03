@@ -1,0 +1,9 @@
+{
+  "name": "chalk",
+  "directory": "bower",
+  "dependencies": {
+    "jquery": "~3.1.1",
+    "fluidbox": "~2.0.4",
+    "scrollreveal": "~3.3.2"
+  }
+}
