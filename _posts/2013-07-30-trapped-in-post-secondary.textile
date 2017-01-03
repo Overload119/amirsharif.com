@@ -1,0 +1,33 @@
+---
+layout: post
+title: Trapped In Post Secondary
+summary: Being stuck in the wrong program.
+---
+
+Sometimes after a 12-hour sprint of studying, I lay in bed at night and contemplate dropping out of school. I start thinking about my program and wonder if graduating is even worth it. Then I start to think about what got me in this position in the first place.
+
+When I graduated from high school I was good at two things: math and computer science. I obtained high marks in the related courses, won a few awards, but more importantly found myself really enjoying it.
+
+When applying for the University of Waterloo, I scanned through the different programs they offered and noticed a relatively new program called, "Computational Mathematics."
+
+It was different than the typical Computer Science or General Math, and I was under the impression this distinction would help me stand out on a resume.
+
+It also has a lot of syllables in it. I naively thought that more syllables means harder/more prestigious program.
+
+Lastly, the name itself contained the two things I was most passionate about in high school. I thought that this must be the perfect program for me. I was wrong on all fronts, and here's why:
+
+High school math is nothing like university math. This is not true for all universities and varies on the program, but UW is known for having very difficult math courses, and I was exposed to them given my program. In high school we were taught how to apply formulas, do calculations, and learn some rules. I thought that university would be more formulas, more calculations, and more rules. Nope.
+
+In high school we never proved anything. We were never taught any theorems or lemmas. High school math was mechanical. It rarely tested your problem solving or creativity. In high school, math was like knowing your alphabets. My first year math courses felt like writing an essay. It's a huge leap forward. That's how I felt it was atleast. In some ways I felt cheated, because high school led me to believe that math was easy.
+
+Throughout first year I struggled with math courses but excelled in computer science ones. Through co-op I was landing internships doing software engineering work, and I loved it. I quickly learned that software engineering is something I'm much more passionate about and enjoy doing. However, after 2nd year I had completed most of my required computer science courses. From that point on it was all math.
+
+At that point I could've switched into something like software engineering, but stuck with my program thinking that the maths would get more interesting. After taking courses on Optimization and Combinatorics, they did -- however they also became more difficult and time consuming.
+
+The most frustrating part of the ordeal was that I was falling behind in my job prospects. I struggled to continue coding and learning computer science independantly while taking math courses, but the course load was too much. I knew I wanted to be a software engineer, but I was spending all my time doing math. I wanted to spend time programming things on the side, but it was becoming harder and harder to maintain my hobby.
+
+My job interviews started becoming really technical. It was no longer, "tell me about yourself and what you've accomplished." It was "Hi, my name is X. I'm going to be asking you to solve Y problems that will test your data structures and algorithm knowledge." Computer Science students and Software Engineering students spend a lot of their time thinking about problems like these during school, but I had to teach myself the same concepts on top of school. It was frustrating.
+
+I'm in my third-year now and switching would cause me to take a lot of new courses that would delay my graduation date. Instead, I've decided to take a smaller course load so that I can free up time to work on side projects. It still delays my education but allows me to get real-work experience -- working on side projects gives me much more freedom and allows me to learn at my own pace. It also gives me something tangible that I can put on my resume, unlike a course. It's a formula that I'm just getting use to but I think it will work.
+
+However, every now and then when school gets too hard I contemplate all the above again.
