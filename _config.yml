@@ -30,6 +30,8 @@ assets:
     js: true
   features:
     automatic_img_size: false
+  assets:
+    - _assets/fonts
   sources:
     - _assets/bower
     - _assets/fonts
