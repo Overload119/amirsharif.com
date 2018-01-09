@@ -1,4 +1,0 @@
----
-slug: cheatsheet
-name: Cheatsheet
----
