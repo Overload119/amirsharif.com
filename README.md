@@ -7,5 +7,5 @@ Powered by [Chalk](https://github.com/nielsenramon/chalk/).
 ## Installation
 
 1. Setup: `bin/setup` (once only)
-2. Develop: `bundle exec jekyll serve`
+2. Develop: `bundle exec jekyll serve --watch`
 3. Deploy: `bin/deploy`
