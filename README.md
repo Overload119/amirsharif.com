@@ -2,10 +2,4 @@
 
 The code that hosts my website, [amirsharif.com](http://www.amirsharif.com).
 
-Powered by [Chalk](https://github.com/nielsenramon/chalk/).
-
-## Installation
-
-1. Setup: `bin/setup` (once only)
-2. Develop: `bundle exec jekyll serve --watch`
-3. Deploy: `bin/deploy`
+Powered by [Netlify](https://www.netlify.com/) and Minimal Mistakes.
