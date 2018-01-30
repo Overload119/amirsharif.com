@@ -1,10 +1,10 @@
 ---
 layout: single
 title: My Top Apps, Routines, and Products
-summary:
+summary: A list of everything I'm experimenting with
 ---
 
-# Apps
+## Apps
 
 - [Alfred](https://www.alfredapp.com/) - Award-winning productivity app
 - [Dropbox](https://www.dropbox.com/install) - A folder that syncs
@@ -18,28 +18,34 @@ summary:
   - [ripgrep](https://github.com/BurntSushi/ripgrep) - combines the usability of The Silver Searcher with the raw speed of grep.
 - [Google Keep](https://keep.google.com)
 
-# Products
+## Products
 
 - MacBook Pro 13-inch (Late 2016)
 - [Das Keyboard 4](http://amzn.to/2D3aQ3V)
 - Evoluent Vertical Mouse
 - Pebble Time Round
 - [Rumble Roller](http://a.co/9rtLDV3)
-- A whiteboard
+- [A whiteboard](http://a.co/3BxYmiU)
 
-# Routines
+## Routines
 
 - Journaling once a week. I send an email to myself that summarizes my week and have a Gmail filter to label and skip the inbox.
 - Sauna twice a week, usually Wednesday and once during the weekend.
 - I setup monthly goals as a note in Google Keep and then pin them for that month.
 
-## Morning Ritual
+### Morning Ritual
 
-- Wash face.
-- Brain games. I'm currently using [Neuronation](https://www.neuronation.com/).
-- Readwise to review my reading from the previous day.
+- 2 tablespoons of flax seeds with water.
+- Some short stretching or movement to get blood circulating.
+- Practice my brain games. I'm currently using [Neuronation](https://www.neuronation.com/). Whenever starting a new experiment, I'll keep an eye on my scores here.
+- [Deprecated] [Readwise](https://readwise.io/) to review my reading from the previous day.
 
-## Night Ritual
+### Night Ritual
 
-- I stretch with my partner for 10-15 minutes.
+- Apply lavender oil[^1] to wrist, or under nose.
+- I stretch with my partner for 10-15 minutes. We generally use this [routine](https://www.youtube.com/watch?v=99uYEteT-UI).
 - If I'm not tired, I'll lay on my [acupressure mat](https://www.amazon.com/gp/product/B0049Q0P9M).
+
+---
+
+[^1]: [An olfactory stimulus modifies nighttime sleep in young men and women](https://www.ncbi.nlm.nih.gov/pubmed/16298774)
