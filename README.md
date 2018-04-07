@@ -11,3 +11,4 @@ Powered by [Netlify](https://www.netlify.com/) and Minimal Mistakes.
 ## Steps to add a blog post
 
 1. Add a post in `/_posts`
+2. Do not update unless you want to have a bad time.
