@@ -156,10 +156,12 @@
 
 .author__bio {
   margin: 0;
+  padding-right: 1em;
 
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
+    padding-right: 0;
   }
 }
 

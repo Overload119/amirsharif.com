@@ -1,7 +1,7 @@
 ---
 layout: single
 title: My Top Apps, Routines, and Products
-summary: A list of everything I'm experimenting with
+excerpt: Habits and other things I swear by.
 ---
 
 ## Apps
@@ -25,27 +25,30 @@ summary: A list of everything I'm experimenting with
 - Evoluent Vertical Mouse
 - Pebble Time Round
 - [Rumble Roller](http://a.co/9rtLDV3)
-- [A whiteboard](http://a.co/3BxYmiU)
+- [Whiteboard](http://a.co/3BxYmiU)
+- [Shampoo Brush](https://amzn.to/2H3BJGI)
+- [Oura ring](https://ouraring.com)
 
 ## Routines
 
-- Journaling once a week. I send an email to myself that summarizes my week and have a Gmail filter to label and skip the inbox.
+- A "digest" journal I write once a week. I send an email to myself that summarizes my week and have a Gmail filter to label and skip the inbox.
 - Sauna twice a week, usually Wednesday and once during the weekend.
-- I setup monthly goals as a note in Google Keep and then pin them for that month.
+- Every month I setup goals and/or things I want to accomplish for that month. I write this on my whiteboard. Most of my goals are "system" oriented that require a daily habit that I measure at the end of each day.
+- Sudarshan Kriya as a meditation practice.
 
 ### Morning Ritual
 
-- 2 tablespoons of flax seeds with water.
-- Some short stretching or movement to get blood circulating.
+- Stretching[^2]
 - Practice my brain games. I'm currently using [Neuronation](https://www.neuronation.com/). Whenever starting a new experiment, I'll keep an eye on my scores here.
 - [Deprecated] [Readwise](https://readwise.io/) to review my reading from the previous day.
 
 ### Night Ritual
 
+- Stretching[^2]
 - Apply lavender oil[^1] to wrist, or under nose.
-- I stretch with my partner for 10-15 minutes. We generally use this [routine](https://www.youtube.com/watch?v=99uYEteT-UI).
 - If I'm not tired, I'll lay on my [acupressure mat](https://www.amazon.com/gp/product/B0049Q0P9M).
 
 ---
 
 [^1]: [An olfactory stimulus modifies nighttime sleep in young men and women](https://www.ncbi.nlm.nih.gov/pubmed/16298774)
+[^2]: [Couple's Routine](https://www.youtube.com/watch?v=99uYEteT-UI). [My Favorite Stretches](https://www.youtube.com/watch?v=sYrIMdOBHkg).
