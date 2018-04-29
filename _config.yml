@@ -5,8 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-theme                    : minimal-mistakes-jekyll
-
+theme: minimal-mistakes-jekyll
 
 defaults:
   - scope:
@@ -96,7 +95,7 @@ analytics:
 author:
   name             : "Amir Sharif"
   avatar           : "/assets/images/bio-photo.png"
-  bio              : "---"
+  bio              : "Engineer at Facebook. Weekend hacker. Self improvement enthusiast."
   location         : "Seattle, WA"
   email            : "hello@amirsharif.com"
   uri              : https://www.amirsharif.com

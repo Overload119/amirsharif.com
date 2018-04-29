@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'autoprefixer-rails'
 gem 'html-proofer'
-gem 'jekyll'
+gem 'jekyll', "~> 3.5"
 gem 'jekyll-assets'
 gem 'jekyll-feed'
 gem 'jekyll-gist'
@@ -11,7 +11,7 @@ gem 'jekyll-paginate'
 gem 'jekyll-sitemap'
 gem 'jemoji'
 gem 'mini_magick'
-gem 'minimal-mistakes-jekyll'
+gem "minimal-mistakes-jekyll"
 gem 'octopress'
 gem 'sass'
 gem 'uglifier'

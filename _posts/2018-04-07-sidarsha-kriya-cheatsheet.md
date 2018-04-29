@@ -53,7 +53,7 @@ The Art of Living organization suggests you pay to have a teacher help you throu
 - Should sound like: O U M
 - Feel the vibrations in the abdomen, chest, and throat.
 
-### Sidarshan Kriya
+### Sudarshan Kriya
 
 - 10 breaths with different pacing: slow, medium, fast.
 
@@ -61,4 +61,4 @@ The Art of Living organization suggests you pay to have a teacher help you throu
 
 While researching SK I stumbled across some cool articles that described the mechanisms of action of meditation.
 
-- [Sudarshan Kriya Yogic Breathing in the Treatment of Stress, Anxiety, and Depression: Part I—Neurophysiologic Model](https://www.liebertpub.com/doi/abs/10.1089/acm.2005.11.189)
+- [Sudarshan Kriya Yogic Breathing in the Treatment of Stress, Anxiety, and Depression](https://www.liebertpub.com/doi/abs/10.1089/acm.2005.11.189)
