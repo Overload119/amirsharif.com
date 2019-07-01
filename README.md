@@ -11,6 +11,8 @@ Powered by [Netlify](https://www.netlify.com/) and Minimal Mistakes.
 
 ### Override theme defaults
 
+This extends https://github.com/mmistakes/minimal-mistakes.
+
 - `bundle show minimal-mistakes-jekyll`
 - Copy those files over and overwrite them
 

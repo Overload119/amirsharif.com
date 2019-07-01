@@ -39,15 +39,17 @@ Jun 30 2019
 
 ### Morning Ritual
 
-- On certain days, I'll drink coffee (Bulletproof beans) with MCT Oil, L-Theanine, and Ashwaganda Power.
+- On certain days, I'll drink coffee (Bulletproof beans) with MCT Oil, L-Theanine, and Ashwaganda Power. This seems to be the most effective "nootropic" blend for me.
 
-**Changelog**
+<div style="font-size: 12px">
+_Changelog_
 
 June 30 2019
 
 - Added coffee.
 - Removed [Neuronation](https://www.neuronation.com/) - not convinced of its benefits.
 - Removed [Readwise](https://readwise.io/) - too much upkeep to keep it working.
+</div>
 
 ### Night Ritual
 
