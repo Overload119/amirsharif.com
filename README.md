@@ -1,5 +1,7 @@
 # Amir Sharif
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/45683b87-df2d-40ee-b3a2-53f6b9549180/deploy-status)](https://app.netlify.com/sites/amirsharif/deploys)
+
 The code that hosts my website, [amirsharif.com](http://www.amirsharif.com).
 
 - `jekyll serve --watch --incremental --livereload`

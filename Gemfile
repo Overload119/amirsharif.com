@@ -2,9 +2,10 @@ ruby '2.6.1'
 
 source 'https://rubygems.org'
 
+gem 'minimal-mistakes-jekyll'
 gem 'autoprefixer-rails'
 gem 'html-proofer'
-gem 'jekyll', "~> 3.8.4"
+gem 'jekyll', '~> 3.8.4'
 gem 'jekyll-assets'
 gem 'jekyll-feed'
 gem 'jekyll-gist'
@@ -13,7 +14,7 @@ gem 'jekyll-paginate'
 gem 'jekyll-sitemap'
 gem 'jemoji'
 gem 'mini_magick'
-gem "minimal-mistakes-jekyll"
 gem 'octopress'
 gem 'sass'
+gem 'sprockets', '>= 3.7.2'
 gem 'uglifier'
