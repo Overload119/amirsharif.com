@@ -18,7 +18,10 @@ excerpt: Habits and other things I swear by.
   - [ripgrep](https://github.com/BurntSushi/ripgrep) - combines the usability of The Silver Searcher with the raw speed of grep.
 - [Trello](https://trello.com/)
 
+_Change Log_
+
 Jun 30 2019
+
 - Remove Google Keep in favor of Trello, which has a faster UI and all the same features.
 
 ## Products
@@ -41,15 +44,13 @@ Jun 30 2019
 
 - On certain days, I'll drink coffee (Bulletproof beans) with MCT Oil, L-Theanine, and Ashwaganda Power. This seems to be the most effective "nootropic" blend for me.
 
-<div style="font-size: 12px">
-_Changelog_
+_Change Log_
 
 June 30 2019
 
 - Added coffee.
 - Removed [Neuronation](https://www.neuronation.com/) - not convinced of its benefits.
 - Removed [Readwise](https://readwise.io/) - too much upkeep to keep it working.
-</div>
 
 ### Night Ritual
 
