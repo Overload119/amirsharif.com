@@ -16,14 +16,15 @@ excerpt: Habits and other things I swear by.
 - [Qbserve](https://qotoqot.com/qbserve/) - Automatic Time Tracker for Mac
 - [Homebrew](https://brew.sh/) - The missing package manager for macOS
   - [ripgrep](https://github.com/BurntSushi/ripgrep) - combines the usability of The Silver Searcher with the raw speed of grep.
-- [Google Keep](https://keep.google.com)
+- [Trello](https://trello.com/)
+
+Jun 30 2019
+- Remove Google Keep in favor of Trello, which has a faster UI and all the same features.
 
 ## Products
 
-- MacBook Pro 13-inch (Late 2016)
-- [Das Keyboard 4](http://amzn.to/2D3aQ3V)
+- [Kinesis Freestyle2](https://www.amazon.com/Kinesis-Freestyle2-Ergonomic-Keyboard-Separation/dp/B0089ZV1C4/) - Split keyboard
 - Evoluent Vertical Mouse
-- Pebble Time Round
 - [Rumble Roller](http://a.co/9rtLDV3)
 - [Whiteboard](http://a.co/3BxYmiU)
 - [Shampoo Brush](https://amzn.to/2H3BJGI)
@@ -38,9 +39,15 @@ excerpt: Habits and other things I swear by.
 
 ### Morning Ritual
 
-- Stretching[^2]
-- Practice my brain games. I'm currently using [Neuronation](https://www.neuronation.com/). Whenever starting a new experiment, I'll keep an eye on my scores here.
-- [Deprecated] [Readwise](https://readwise.io/) to review my reading from the previous day.
+- On certain days, I'll drink coffee (Bulletproof beans) with MCT Oil, L-Theanine, and Ashwaganda Power.
+
+**Changelog**
+
+June 30 2019
+
+- Added coffee.
+- Removed [Neuronation](https://www.neuronation.com/) - not convinced of its benefits.
+- Removed [Readwise](https://readwise.io/) - too much upkeep to keep it working.
 
 ### Night Ritual
 
