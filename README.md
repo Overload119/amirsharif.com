@@ -25,4 +25,3 @@ This extends https://github.com/mmistakes/minimal-mistakes.
 ## Steps to add a blog post
 
 - Add a post in `/_posts`
-- Wait forever it seems?
