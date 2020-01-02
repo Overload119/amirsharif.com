@@ -22,6 +22,11 @@ This extends https://github.com/mmistakes/minimal-mistakes.
 
 `![My helpful screenshot]({{ "/assets/screenshot.jpg" | absolute_url }})`
 
-## Steps to add a blog post
+### Steps to add a blog post
 
 - Add a post in `/_posts`
+
+### Deploying
+
+- `git push` should trigger a job in Netlify to build the website.
+- TODO: How do I do this from GitHub itself?
