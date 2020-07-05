@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Career Advice
-excerpt: A collection of links for being a great engineer.
+excerpt: My response to how do I build a great career both inside and outside of the tech industry.
 published: true
 ---
 
