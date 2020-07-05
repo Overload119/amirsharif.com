@@ -1,17 +1,15 @@
 ---
 layout: single
 title: Save Multiple Emails as Images
-excerpt: My "hack-of-the-day" post of how to quickly export emails as images to share
+excerpt: My "hack-of-the-day" post of how to quickly export emails as images to share.
 published: true
 ---
-
-# Save Multiple Emails as Images
 
 **Problem**: You found an awesome email campaign that you want to quickly download as screenshots. 
 
 You will need:
 
-- A Gmail account and a Gmail Script project to export the emails. https://script.google.com/home
+- A Gmail account and a [Gmail Script project](https://script.google.com/home) to export the emails. 
 - [wkhtmltoimage](https://wkhtmltopdf.org/) to convert the emails to image
 
 **Solution**
