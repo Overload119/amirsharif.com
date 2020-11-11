@@ -24,7 +24,7 @@ Applies to engineering careers.
 
 ### Interviewing
 
-- [Awesome: Interview Questions](https://githb.com/MaximAbramchuck/awesome-interview-questions)
+- [Awesome: Interview Questions](https://github.com/MaximAbramchuck/awesome-interview-questions)
 - [Interview Questions for Front-End Developers](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 - [A Self-Learning, Modern Computer Science Curriculum](https://functionalcs.github.io/curriculum)
 
