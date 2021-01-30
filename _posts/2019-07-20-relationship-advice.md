@@ -7,7 +7,7 @@ published: true
 
 Hold Me Tight is a practical guide to Emotional Focused Therapy (EFT). It's written by Sue Johnson who has [lots of accolades](http://www.drsuejohnson.com/) in the domain of couple's therapy. The book combines psychology studies with anonymized conversations with her clients in her couple's counseling practice.
 
-###  Motivation
+### Motivation
 
 I picked up the book shortly after I got married. I was surprised to learn that 50% of marriages end in divorce within 8 years. What goes wrong in so many of these cases?
 
@@ -52,7 +52,6 @@ The basis of EFT is on attachment theory. Human beings _need_ emotional care. Th
 
 > In Cleveland, researchers at Case Western Reserve University asked men with a history of angina and high blood pressure, “Does your wife show her love?” Those who answered “No” suffered almost twice as many angina episodes during the next five years as did those who replied “Yes.”
 
-
 > Psychologist Jim Coan of the University of Virginia told women patients having an MRI brain scan that when a little red light on the machine came on, they might receive a small electrical shock on their feet — or they might not. This information lit up the stress centers in patients’ brains. But when partners held their hands, the patients registered less stress.
 >
 > ...
@@ -73,7 +72,7 @@ There are several steps you can do to avoid and resolve the above. What you _don
 
 **Steps For Resolution**
 
-- Simply identifying the pattern in a conversation can go a long way: "This conversation is starting to look like ____." Work out a "mitigation plan" with your partner to catch the warning signs earlier.
+- Simply identifying the pattern in a conversation can go a long way: "This conversation is starting to look like \_\_\_\_." Work out a "mitigation plan" with your partner to catch the warning signs earlier.
 - Remind yourself that stressed conversations are never about the facts (who did what) - they're about the the strength and security of your emotional bond with your partner. The research suggests people crave emotional confirmation and caring from their partners, as opposed to advice.
 - Create an emotional safety net: allow your partner to share their insecurities and the emotions their feeling. Overcome blame with curiosity (why are they feeling this way?)
 

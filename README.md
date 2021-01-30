@@ -11,7 +11,11 @@ Powered by [Netlify](https://www.netlify.com/) and Minimal Mistakes.
 
 - Changes in `/_data` require a restart.
 
-### Override theme defaults
+### Override Theme Defaults
+
+To upgrade the main theme follow instructions [here](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#migrating-to-gem-version).
+
+`bundle update minimal-mistakes-jekyll`
 
 This extends https://github.com/mmistakes/minimal-mistakes.
 
@@ -25,6 +29,7 @@ This extends https://github.com/mmistakes/minimal-mistakes.
 ### Steps to add a blog post
 
 - Add a post in `/_posts`
+- If you want to add a new section to the site, modify `_data/navigation.yml`
 
 ### Deploying
 

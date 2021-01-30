@@ -35,10 +35,10 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     # https://developers.facebook.com/apps/205344143356210/add/
-    username             : boy
-    appid                : 205344143356210
-    num_posts            : 5
-    colorscheme          : light
+    # username             : boy
+    # appid                : 205344143356210
+    # num_posts            : 5
+    # colorscheme          : light
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
@@ -71,12 +71,12 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : amir_rezaa
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : /assets/images/bio-photo.png
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -86,47 +86,27 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag"
   google:
     tracking_id          : "UA-36555623-1"
 
 
 # Site Author
 author:
-  name             : "Amir Sharif"
-  avatar           : "/assets/images/bio-photo.png"
-  bio              : "Engineer at Facebook. Weekend hacker. Self improvement enthusiast."
-  location         : "Seattle, WA"
-  email            : "hello@amirsharif.com"
-  uri              : https://www.amirsharif.com
-  facebook         : "boy"
-  github           : "Overload119"
-  linkedin         : "amir-sharif-29226636"
-  email            : "hello@amirsharif.com"
-  home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  foursquare       :
-  github           :
-  gitlab           :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
-
+  name: "Amir Sharif"
+  avatar: "/assets/images/bio-photo.png"
+  bio: "Engineer at Facebook. Weekend hacker. Self improvement enthusiast."
+  twitter: "Twitter"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hello@amirsharif.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/amir_rezaa"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Overload119"
 
 # Reading Files
 include:
@@ -164,7 +144,6 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
@@ -196,7 +175,6 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins (previously gems:)
 plugins:
@@ -275,17 +253,9 @@ defaults:
 # # Optional settings
 #
 # discus_identifier: # Add your Disqus identifier
-# ga_analytics: "UA-36555623-1"
+ga_analytics: "UA-36555623-1"
 # rss_enabled: true # Change to false if not
 # about_enabled: false # Change to true if you wish to show an icon in the navigation that redirects to the about page
-# social:
-#   dribbble: # Add your Dribbble handle
-#   facebook: "boy"
-#   flickr: # Add your Flickr handle
-#   github: "Overload119"
-#   linkedin: "amir-sharif-29226636"
-#   twitter: # Add your Twitter handle
-#   email: "hello@amirsharif.com"
 #   bitcoin: # Add your Bitcoin link or address
 #
 # # Important settings (change at own risk)

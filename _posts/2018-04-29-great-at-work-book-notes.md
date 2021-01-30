@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "Great at Work: Cheatsheet"
+title: 'Great at Work: Cheatsheet'
+tags: book-review
 excerpt: Summary of the book with the same name.
 ---
 
@@ -60,15 +61,15 @@ A summary of the key lessons I learned from reading [Great at Work](https://www.
 - Ask questions like, "what ideas do you have?" not "do you have any ideas?"
 - Collaboration = Benefit of Initiative - Opportunity Cost - Collaboration Cost
   - If you can't devote full resources, scrap the collaboration or scale it back.
-  - The purpose of collaboration is __NOT__ collaboration: it's _better performance_.
+  - The purpose of collaboration is **NOT** collaboration: it's _better performance_.
 - Make goals around collaboration that are unifying; common, concrete, measurable, and finite.
 
-| Source of Distrust | Actions You Can Take
---- | ---
-Lack of competence | Get a sense of track record / prior work and start small with a pilot project.
-Insincere intentions (their goals are not aligned with ours) | Verify intentions, "what does success look like?," get public commitment (ie. written down), start small
-Misunderstandings | Clarify and educate
-Lack of congeniality | Bond by asking and sharing personal information, finding things in common, team exercises.
+| Source of Distrust                                           | Actions You Can Take                                                                                     |
+| ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| Lack of competence                                           | Get a sense of track record / prior work and start small with a pilot project.                           |
+| Insincere intentions (their goals are not aligned with ours) | Verify intentions, "what does success look like?," get public commitment (ie. written down), start small |
+| Misunderstandings                                            | Clarify and educate                                                                                      |
+| Lack of congeniality                                         | Bond by asking and sharing personal information, finding things in common, team exercises.               |
 
 # Conclusion
 

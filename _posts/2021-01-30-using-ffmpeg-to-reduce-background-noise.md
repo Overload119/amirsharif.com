@@ -1,8 +1,9 @@
 ---
 layout: single
-title: Save Multiple Emails as Images
-excerpt: My "hack-of-the-day" post of how to quickly export emails as images to share.
+title: Using ffmpeg to reduce background noise
+tags: TIL
 published: true
+excerpt: ""
 ---
 
 Scenario:
