@@ -19,7 +19,7 @@ To upgrade the main theme follow instructions [here](https://mmistakes.github.io
 
 This extends https://github.com/mmistakes/minimal-mistakes.
 
-- `bundle show minimal-mistakes-jekyll`
+- `bundle info minimal-mistakes-jekyll`
 - Copy those files over and overwrite them
 
 ### How to add images
