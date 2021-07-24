@@ -1,4 +1,8 @@
-# Learning Engine
+---
+layout: single
+title: My Learning Engine
+published: true
+---
 
 In a newsletter from [Sahil Bloom](https://sahilbloom.substack.com/people/12887102-sahil-bloom), I saw the term "Learning Engine" defined as, "...all the learning “inputs” regularly consumed - books, newsletters, podcasts, videos, etc."
 
@@ -14,12 +18,12 @@ I keep track of all books I've [read](https://www.goodreads.com/review/list/4843
 - [For The Interested - Learn. Do. Become.](https://fortheinterested.com/)
 - [Hacker News Digest](https://hndigest.com/)
 - [Not Boring by Packy McCormick](https://www.notboring.co/)
-- [Growth Marketing Newsletter | Demand Curve](https://www.demandcurve.com/newsletter#n37f05919phxpfne613dt)
+- [Growth Marketing Newsletter - Demand Curve](https://www.demandcurve.com/newsletter#n37f05919phxpfne613dt)
 - [The Best Email Marketing Newsletter. HANDS DOWN! — Chase Dimond - Email Marketer](https://chasedimond.com/chase-email-newsletter)
-- [Newsletters | Product Hunt](https://www.producthunt.com/newsletter)
-- [AngelList Weekly | AngelList](https://angel.co/newsletters)
-- [3-2-1 Thursday newsletter | James Clear](https://jamesclear.com/3-2-1)
-- [Get To Traction | Revue](https://www.getrevue.co/profile/GetToTraction)
+- [Newsletters - Product Hunt](https://www.producthunt.com/newsletter)
+- [AngelList Weekly - AngelList](https://angel.co/newsletters)
+- [3-2-1 Thursday newsletter - James Clear](https://jamesclear.com/3-2-1)
+- [Get To Traction - Revue](https://www.getrevue.co/profile/GetToTraction)
 - [Gwern.net Newsletter](https://gwern.substack.com/)
 
 ## Podcasts
