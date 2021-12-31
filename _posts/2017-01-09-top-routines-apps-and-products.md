@@ -12,11 +12,12 @@ excerpt: Habits and other things I swear by.
 - [BitBar](https://github.com/matryer/bitbar/releases/latest) - Put anything in your Mac OS X menu bar
 - [Caret](https://caret.io/) - Beautiful & Clever Markdown Editor
 - [Kaleidoscope](https://www.kaleidoscopeapp.com/) - Powerful file comparison tool (works on text, images, and folders)
-- [Spectacle](https://www.spectacleapp.com/) - Move and resize windows with ease
+- [Rectangle](https://rectangleapp.com/) - Move and resize windows with ease
 - [Qbserve](https://qotoqot.com/qbserve/) - Automatic Time Tracker for Mac
 - [Homebrew](https://brew.sh/) - The missing package manager for macOS
   - [ripgrep](https://github.com/BurntSushi/ripgrep) - combines the usability of The Silver Searcher with the raw speed of grep.
 - [Trello](https://trello.com/)
+- [Hyperkey](https://hyperkey.app/): Let's me get more out of my keyboard by setting up a new modifier key.
 
 _Change Log_
 
@@ -24,10 +25,16 @@ Jun 30 2019
 
 - Remove Google Keep in favor of Trello, which has a faster UI and all the same features.
 
+## Computer Setup
+
+- [Autonomous.ai](https://bit.ly/2QD3nPE) chair and standing desk.
+- [Kinesis Freestyle2](https://www.amazon.com/Kinesis-Freestyle2-Ergonomic-Keyboard-Separation/dp/B0089ZV1C4/) - Split keyboard
+- [Evoluent Vertical Mouse](https://amzn.to/37IrhQK)
+- Dell 4K
+- An Apple Trackpad (set in the center of my keyboard)
+
 ## Products
 
-- [Kinesis Freestyle2](https://www.amazon.com/Kinesis-Freestyle2-Ergonomic-Keyboard-Separation/dp/B0089ZV1C4/) - Split keyboard
-- Evoluent Vertical Mouse
 - [Rumble Roller](http://a.co/9rtLDV3)
 - [Whiteboard](http://a.co/3BxYmiU)
 - [Shampoo Brush](https://amzn.to/2H3BJGI)
