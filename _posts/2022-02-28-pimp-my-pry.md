@@ -35,3 +35,26 @@ pry(main)> Pry.config.history_file
 Voila!
 
 <video src="https://sapco.nyc3.digitaloceanspaces.com/amirsharif.com/CleanShot%202021-12-31%20at%2013.53.39.mp4" autoplay="true" loop="loop" muted="muted"/>
+
+## Copying a variable from the console
+
+Add these methods to your Pry console. ([source](https://stackoverflow.com/questions/19280965/copy-to-clipboard-in-ruby-html-or-c-sharp#23141160))
+```rb
+def pbcopy(input)
+ str = input.to_s
+ IO.popen('pbcopy', 'w') { |f| f << str }
+ str
+end
+
+def pbpaste
+ `pbpaste`
+end
+```
+
+Let's say you have a giant string blob in a local variable like `html`
+
+In the console you can run:
+
+```rb
+pbcopy(html) # The string content is now on your clipboard!
+```
