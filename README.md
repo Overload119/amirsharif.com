@@ -4,6 +4,7 @@
 
 The code that hosts my website, [amirsharif.com](http://www.amirsharif.com).
 
+- `jekyll build`
 - `jekyll serve --watch --incremental --livereload`
 - Open `http://127.0.0.1:4000/`
 

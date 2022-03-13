@@ -2,17 +2,19 @@
 layout: single
 title: My Learning Engine
 published: true
+excerpt: Content inputs for my brain.
+tags: list
 ---
 
 In a newsletter from [Sahil Bloom](https://sahilbloom.substack.com/people/12887102-sahil-bloom), I saw the term "Learning Engine" defined as, "...all the learning “inputs” regularly consumed - books, newsletters, podcasts, videos, etc."
 
-This article summarizes my Learning Engine, and I encourage others to create one. It often helps to learn what inputs are going into other people's worldview so you can better understand them. 
+This article summarizes my Learning Engine, and I encourage others to create one. It often helps to learn what inputs are going into other people's worldview so you can better understand them.
 
 Last updated Feb 28 2022
 
 ## Books
 
-I keep track of all books I've [read](https://www.goodreads.com/review/list/48435204-amir-sharif?ref=nav_mybooks&shelf=read), [want to read](https://www.goodreads.com/review/list/48435204-amir-sharif?ref=nav_mybooks&shelf=to-read), and [currently reading](https://www.goodreads.com/review/list/48435204-amir-sharif?ref=nav_mybooks&shelf=currently-reading) on Goodreads. 
+I keep track of all books I've [read](https://www.goodreads.com/review/list/48435204-amir-sharif?ref=nav_mybooks&shelf=read), [want to read](https://www.goodreads.com/review/list/48435204-amir-sharif?ref=nav_mybooks&shelf=to-read), and [currently reading](https://www.goodreads.com/review/list/48435204-amir-sharif?ref=nav_mybooks&shelf=currently-reading) on Goodreads.
 
 ## Newsletters
 
